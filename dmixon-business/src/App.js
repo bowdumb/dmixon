@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes }from 'react-router-dom';
-import About from '.components/About';
+import About from './components/About';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
