@@ -1,4 +1,4 @@
- import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/Navbar.css';
 
@@ -9,6 +9,13 @@ function Navbar() {
     setActiveLink(link);
   };
 
+  const isWelcomeLinkActive = (match, location) => {
+    if (!match) {
+      return location.pathname === "/";
+    }
+    return match;
+  }
+
   return (
     <div>
       <section className="navbar">
@@ -17,12 +24,11 @@ function Navbar() {
           <nav>
             <div className="navbar-links">
               <div className="spacer"></div>
-              <NavLink to="/" exact="true">Welcome</NavLink>
-
+              <NavLink to="/" exact={true} className="welcome-link">Welcome</NavLink> {/* Add a specific class */}
               <NavLink
                 to="/about"
                 className="nav-link"
-                activeclassname="active-link"
+                activeClassName="active-link"
                 onClick={() => handleLinkClick("/about")}
               >
                 About
@@ -30,7 +36,7 @@ function Navbar() {
               <NavLink
                 to="/contact"
                 className="nav-link"
-                activeclassname="active-link"
+                activeClassName="active-link"
                 onClick={() => handleLinkClick("/contact")}
               >
                 Contact

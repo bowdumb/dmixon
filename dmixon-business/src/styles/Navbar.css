@@ -17,6 +17,11 @@
     margin: 0;
 }
 
+.welcome-link {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar-links {
     display: flex;
     gap: 60px;
