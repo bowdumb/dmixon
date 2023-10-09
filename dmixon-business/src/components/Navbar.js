@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/Navbar.css';
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('');
@@ -15,7 +16,8 @@ function Navbar() {
           <h1 className="navbar-title">D.Mixon Practices</h1>
           <nav>
             <div className="navbar-links">
-              <NavLink to="/" exact="true">Home</NavLink>
+              <div className="spacer"></div>
+              <NavLink to="/" exact="true">Welcome</NavLink>
 
               <NavLink
                 to="/about"
