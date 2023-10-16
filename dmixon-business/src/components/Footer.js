@@ -1,12 +1,11 @@
 import React from 'react';
+import "../styles/Footer.css";
 
 function Footer() {
     return (
         <div className="footer-content">
             <p>
-                Placeholder footer content. Consider adding contact info, copyright, etc.
-                This can also just be a visual footer on the bottom...basically a banner,
-                if you prefer.
+                © 2023 Danielle Mixon
             </p>
         </div>
     );

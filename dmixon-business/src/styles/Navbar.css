@@ -2,7 +2,7 @@
     width: 100%;
     height: 180px;
     position: relative;
-    background-color: rgb(235, 95, 57);
+    background-color: rgb(84, 171, 234);
 }
 
 .navbar-content {
@@ -20,19 +20,36 @@
 .welcome-link {
     text-decoration: none;
     color: white;
+    padding: 10px 5px;
 }
 
 .navbar-links {
     display: flex;
-    gap: 60px;
+    gap: 20px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 5px;
 }
 
 .nav-link {
     text-decoration: none;
     color: white;
+    padding: 10px 5px;
+}
+
+.nav-link-contact {
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link-contact:hover {
+    border:2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
 }
 
 .active-link {
