@@ -13,14 +13,23 @@
 }
 
 .navbar-title {
-    font-size: 24px;
+    font-size: 55px;
+    font-family: Thasadith, sans-serif;
     margin: 0;
+    font-weight: 700;
+    color: white;
 }
 
 .welcome-link {
     text-decoration: none;
     color: white;
+    font-weight: 700;
+    font-size: 20px;
     padding: 10px 5px;
+    font-family: Thasadith, sans-serif;
+}
+.welcome-link:hover {
+    color: black;
 }
 
 .navbar-links {
@@ -34,12 +43,21 @@
 .nav-link {
     text-decoration: none;
     color: white;
+    font-family: Thasadith, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
     padding: 10px 5px;
 }
 
+.nav-link:hover {
+    color:black;
+}
 .nav-link-contact {
     text-decoration: none;
     color: white;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Thasadith, sans-serif;
     border: 1.5px solid white;
     padding: 10px 10px;
     border-radius: 10px;
@@ -48,7 +66,7 @@
 
 .nav-link-contact:hover {
     border:2px solid black;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: white;
     color: black;
 }
 
