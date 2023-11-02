@@ -1,9 +1,11 @@
 .footer-content {
-    background-color:rgb(19, 135, 218);
+    background-color:rgb(134, 187, 224);
+    font-family: Thasadith, sans-serif;
+    font-weight: 700;
     color: white;
     padding: 20px;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
