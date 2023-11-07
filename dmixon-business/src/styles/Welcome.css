@@ -1,22 +1,22 @@
 .welcome-container {
     display: grid;
-    grid-template-columns: auto 1fr; /* Two columns: First column takes the size of the image, second column takes the rest of the available width */
-    gap: 20px; /* Adjust gap as needed */
+    grid-template-columns: auto 1fr;
+    gap: 120px; /* Adjust this value to determnine gap between welcome image and letter text. */
 }
 
 .welcome-image {
-    grid-column: 1; /* Place in the first column */
+    grid-column: 1;
     padding: 60px;
 }
 
 img {
-    max-width: 100%;
-    width: 100%; /* Make the image fill its container */
+    max-width:100%;
+    max-height: 65%;
+    width: 100%;
 }
 
 .letter-container {
-    grid-column: 2; /* Place in the second column */
+    grid-column: 2;
     padding: 40px;
+    max-width: 40%;
 }
-
-/* Add more CSS styles as needed */
