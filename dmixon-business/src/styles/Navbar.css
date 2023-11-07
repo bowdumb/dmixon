@@ -18,6 +18,7 @@
     margin: 0;
     font-weight: 700;
     color: white;
+    margin-bottom: 90px;
 }
 
 .welcome-link {
@@ -38,6 +39,7 @@
     list-style-type: none;
     margin: 0;
     padding: 10px 5px;
+    margin-top:100px;
 }
 
 .nav-link {
