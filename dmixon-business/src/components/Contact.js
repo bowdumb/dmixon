@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Contact.css';
 
 function Contact() {
     return (
@@ -6,11 +7,11 @@ function Contact() {
             <h1 className="contact-header">
                 Contact
             </h1>
-            <p>
-                Contact placeholder content. Add below sections for Name, Email, and for entering
-                a message that delivers to Danielle. Consider adding Google Voice contact info below or in footer.
-            </p>
+            <div className="contact-button">
+            <a href="mailto:mixond@gmail.com">Contact Danielle via email</a>
+            </div>
         </div>
+        
 
     )
 };
