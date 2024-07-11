@@ -5,58 +5,27 @@ function Welcome() {
     return (
         <div className="welcome-container">
             <div className="welcome-image">
-                <img src="assets/placeholder.jpeg" alt="A photo of Danielle" />
+                <img src="assets/placeholder.jpeg" alt="Danielle's headshot" />
             </div>
             <div className="letter-container">
                 <p>
-                    Welcome to Danielle's website! You can't see it, but she's got a great can!
-                    We'll have a welcome letter from Danielle here.
+                Haven provides resources for adults who are navigating life after trauma and leaders who are creating more
+                 trauma-informed environments. Every aspect of the services we provide and the way we provide them are designed
+                  to be antidotes to the negative effects of traumatic experiences. 
                 </p>
                 <p>
-                    Danielle is great. She's very intelligent, she's great with  kids, and she's got a cool accent.
+                    We offer:
                 </p>
+                <ul>
+                <li>Individual teletherapy for adults in NY who have experienced trauma</li>
+                <li>Online clinical supervision for social workers who specialize in trauma work</li>
+                <li>Consulting and educational services for organizations who are building trauma-informed systems </li>
+                </ul>
                 <p>
-                    I like Danielle a lot, and I'm sure that you will too!
-                </p>
-                <p>
-                    Welcome to Danielle's website! You can't see it, but she's got a great can!
-                    We'll have a welcome letter from Danielle here.
-                </p>
-                <p>
-                    Danielle is great. She's very intelligent, she's great with  kids, and she's got a cool accent.
-                </p>
-                <p>
-                    I like Danielle a lot, and I'm sure that you will too!
-                </p>
-                <p>
-                    Welcome to Danielle's website! You can't see it, but she's got a great can!
-                    We'll have a welcome letter from Danielle here.
-                </p>
-                <p>
-                    Danielle is great. She's very intelligent, she's great with  kids, and she's got a cool accent.
-                </p>
-                <p>
-                    I like Danielle a lot, and I'm sure that you will too!
-                </p>
-                <p>
-                    Welcome to Danielle's website! You can't see it, but she's got a great can!
-                    We'll have a welcome letter from Danielle here.
-                </p>
-                <p>
-                    Danielle is great. She's very intelligent, she's great with  kids, and she's got a cool accent.
-                </p>
-                <p>
-                    I like Danielle a lot, and I'm sure that you will too!
-                </p>
-                <p>
-                    Welcome to Danielle's website! You can't see it, but she's got a great can!
-                    We'll have a welcome letter from Danielle here.
-                </p>
-                <p>
-                    Danielle is great. She's very intelligent, she's great with  kids, and she's got a cool accent.
-                </p>
-                <p>
-                    I like Danielle a lot, and I'm sure that you will too!
+                We prioritize integrity and inclusivity in the Haven community. A cornerstone of our work in the trauma field
+                 is recognizing that oppressive systems and exploitation of power are pervasive in our society. We aim to operate
+                  in a way that counters powerlessness and dehumanization, radically welcomes people from marginalized communities,
+                   and provides appropriate and nonjudgmental support to all.
                 </p>
             </div>
         </div>

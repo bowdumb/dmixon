@@ -22,7 +22,7 @@ function Navbar() {
     <div>
       <section className="navbar">
         <div className="navbar-content">
-          <h1 className="navbar-title">D.Mixon Practices</h1>
+          <h1 className="navbar-title">Haven Therapy & Consulting</h1>
           <nav>
             <div className="navbar-links">
               <div className="spacer"></div>
@@ -50,9 +50,9 @@ function Navbar() {
                 </NavLink>
                 {dropdownVisible && (
                   <ul className="dropdown">
-                    <li className="dropdown-item"><NavLink to="/individuals/service1" className="dropdown-link">Service 1</NavLink></li>
-                    <li className="dropdown-item"><NavLink to="/individuals/service2" className="dropdown-link">Service 2</NavLink></li>
-                    <li className="dropdown-item"><NavLink to="/individuals/service3" className="dropdown-link">Service 3</NavLink></li>
+                    <li className="dropdown-item"><NavLink to="/individuals/service1" className="dropdown-link">Trauma Therapy For Individuals</NavLink></li>
+                    <li className="dropdown-item"><NavLink to="/individuals/service2" className="dropdown-link">Clinical Supervision For Social Workers</NavLink></li>
+                    <li className="dropdown-item"><NavLink to="/individuals/service3" className="dropdown-link">Consulting For Businesses/Communities</NavLink></li>
                   </ul>
                 )}
               </div>
