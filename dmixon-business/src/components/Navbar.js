@@ -4,17 +4,19 @@ import '../styles/Navbar.css';
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('');
+  const [dropdownVisible, setDropdownVisible] = useState(false);
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
 
-  const isWelcomeLinkActive = (match, location) => {
-    if (!match) {
-      return location.pathname === "/";
-    }
-    return match;
-  }
+  const handleMouseEnter = () => {
+    setDropdownVisible(true);
+  };
+
+  const handleMouseLeave = () => {
+    setDropdownVisible(false);
+  };
 
   return (
     <div>
@@ -33,30 +35,43 @@ function Navbar() {
               >
                 About Danielle
               </NavLink>
-              <NavLink
-                to="/individuals"
-                className="nav-link"
-                activeClassName="active-link"
-                onClick={() => handleLinkClick("/individuals")}
+              <div
+                className="nav-link-container"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <NavLink
+                  to="/individuals"
+                  className="nav-link"
+                  activeClassName="active-link"
+                  onClick={() => handleLinkClick("/individuals")}
                 >
-                For Individuals
+                  Services
                 </NavLink>
+                {dropdownVisible && (
+                  <ul className="dropdown">
+                    <li className="dropdown-item"><NavLink to="/individuals/service1" className="dropdown-link">Service 1</NavLink></li>
+                    <li className="dropdown-item"><NavLink to="/individuals/service2" className="dropdown-link">Service 2</NavLink></li>
+                    <li className="dropdown-item"><NavLink to="/individuals/service3" className="dropdown-link">Service 3</NavLink></li>
+                  </ul>
+                )}
+              </div>
               <NavLink
                 to="/organizations"
                 className="nav-link"
                 activeClassName="active-link"
                 onClick={() => handleLinkClick("/organizations")}
-                >
+              >
                 For Organizations
-                </NavLink>
-                <NavLink
+              </NavLink>
+              <NavLink
                 to="/resources"
                 className="nav-link"
                 activeClassName="active-link"
-                onClick={() => handleLinkClick("/contact")}
-                >
-                  Resources
-                </NavLink>
+                onClick={() => handleLinkClick("/resources")}
+              >
+                Resources
+              </NavLink>
               <NavLink
                 to="/contact"
                 className="nav-link-contact"
@@ -65,7 +80,6 @@ function Navbar() {
               >
                 Contact
               </NavLink>
-            
             </div>
           </nav>
         </div>
