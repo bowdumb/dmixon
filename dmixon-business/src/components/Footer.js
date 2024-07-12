@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer-content">
             <p>
-                © 2023 Danielle Mixon
+                © 2024 Haven Therapy & Consulting
             </p>
         </div>
     );
