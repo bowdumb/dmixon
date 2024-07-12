@@ -35,11 +35,11 @@ function Navbar() {
                 Welcome
               </NavLink>
               <NavLink
-                to="/about"
-                className={`nav-link ${activeLink === '/about' ? 'active-link' : ''}`}
+                to="/people"
+                className={`nav-link ${activeLink === '/people' ? 'active-link' : ''}`}
                 onClick={() => handleLinkClick('/about')}
               >
-                About Danielle
+                People
               </NavLink>
               <div
                 className="nav-link-container"
@@ -85,13 +85,6 @@ function Navbar() {
                   </ul>
                 )}
               </div>
-              <NavLink
-                to="/organizations"
-                className={`nav-link ${activeLink === '/organizations' ? 'active-link' : ''}`}
-                onClick={() => handleLinkClick('/organizations')}
-              >
-                For Organizations
-              </NavLink>
               <NavLink
                 to="/resources"
                 className={`nav-link ${activeLink === '/resources' ? 'active-link' : ''}`}
