@@ -11,7 +11,7 @@ import Resources from './components/Resources';
 import './App.css';
 
 function App() {
-  const title = "D.Mixon Practices";
+  const title = "Haven Therapy & Consulting";
   useEffect(() => {
     document.title = title;
   }, []);
