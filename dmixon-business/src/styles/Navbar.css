@@ -3,6 +3,7 @@
     height: 180px;
     position: relative;
     background-color: rgb(97, 144, 158);
+    border: 2px solid black;
 }
 
 .navbar-content {
