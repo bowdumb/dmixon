@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/Welcome.css';
+import BodyContent from './BodyContent';
 
 function Welcome() {
     return (
+        <BodyContent>
         <div className="welcome-container">
             <div className="welcome-image">
                 <img src="assets/placeholder.jpeg" alt="Danielle's headshot" />
@@ -29,6 +31,7 @@ function Welcome() {
                 </p>
             </div>
         </div>
+        </BodyContent>
     );
 }
 
