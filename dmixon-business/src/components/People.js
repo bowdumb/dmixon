@@ -1,7 +1,9 @@
 import React from 'react';
+import BodyContent from './BodyContent';
 
 function People () {
     return (
+        <BodyContent>
         <div className = "about-content">
             <h1 className = "about-title">Danielle Mixon, LCSW (with headshot)</h1>
             <p>
@@ -24,6 +26,8 @@ function People () {
                 or respond to sexual harassment and abuse.
             </p>
         </div>
+        </BodyContent>
+
     );
 };
 
