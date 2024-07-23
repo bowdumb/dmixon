@@ -11,3 +11,9 @@
     padding: 30px;
     border-radius: 70%;
 }
+
+.link-container {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

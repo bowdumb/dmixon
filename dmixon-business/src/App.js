@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import People from './components/People';
+import DanielleBio from './components/DanielleBio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Individuals from './components/Individuals';
@@ -28,6 +29,7 @@ function App() {
           <Route path="Organizations" element={<Organizations />} />
           <Route path="People" element={<People />} />
           <Route path="Resources" element={<Resources />} />
+          <Route path="DanielleBio" element={<DanielleBio />} />
         </Routes>
         <Footer />
       </div>
