@@ -10,6 +10,9 @@ function People () {
                 <div className="danielle-bio-headshot">
                     <img src="assets/placeholder.jpeg" alt="Danielle's headshot" className="people-headshots" />
                 </div>
+                <div className="danielle-people-title">
+                <h1>Danielle Mixon, LCSW</h1>
+                </div>
             </div>
 
         </BodyContent>

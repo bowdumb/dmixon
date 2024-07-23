@@ -1,7 +1,7 @@
 .welcome-container {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 120px; /* Adjust this value to determnine gap between welcome image and letter text. */
+    gap: 120px;
 }
 
 .welcome-image {
