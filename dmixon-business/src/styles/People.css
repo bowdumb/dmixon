@@ -6,10 +6,11 @@
 }
 
 .people-headshots {
-    width: 260px;
+    width: 240px;
     height: 300px;
     padding: 30px;
     border-radius: 50%;
+    object-fit: cover;
 
 }
 
