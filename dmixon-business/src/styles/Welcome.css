@@ -14,3 +14,25 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
+
+.welcome-header {
+    font-family: "Platypi", sans-serif;
+    font-size: xxx-large;
+    max-width: 30%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+}
+
+.book-session-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: large;
+    font-family: "Platypi", sans-serif;
+    color: white;
+    background-color: rgb(141, 167, 149);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 15%;
+}

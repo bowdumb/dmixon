@@ -10,9 +10,9 @@ function Welcome() {
                 <div className="welcome-header">
                     Trauma-centered therapy for individuals, consulting for businesses, and  
                     clinical supervision for therapists
-                </div>
-                <div className="contact-button-welcome">
-                <Link to="/contact">Book a session</Link>
+                    <div className="contact-button-welcome">
+                        <Link to="/contact" className="book-session-button">Book a session</Link>
+                    </div>
                 </div>
                 <div className="letter-container">
                     <p>
