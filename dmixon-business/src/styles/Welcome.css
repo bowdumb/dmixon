@@ -8,8 +8,9 @@
 .letter-container {
     padding: 40px;
     max-width: 40%;
+    max-height:70%;
     font-family: "Platypi", sans-serif;
-    font-size: x-large;
+    font-size:large;
     background-color: #559374; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
