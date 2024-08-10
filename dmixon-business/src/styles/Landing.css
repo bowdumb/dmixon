@@ -1,0 +1,57 @@
+.landing-container {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.landing-header {
+    font-family: "Platypi", sans-serif;
+    font-size: xxx-large;
+    max-width: 37%;
+    text-align: start;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.contact-button-landing {
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.book-consult-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: large;
+    font-family: "Platypi", sans-serif;
+    color: white;
+    background-color: rgb(141, 167, 149);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 15%;
+}
+
+.book-consult-button:hover {
+    background-color: #0056b3; /* Darken the button color on hover */
+}
+
+.left {
+    align-self: flex-start;
+    max-width: 40%;
+    font-family: "Platypi", sans-serif;
+    font-size: xx-large;
+}
+
+.right { 
+    align-self: flex-end;
+    max-width: 40%;
+    font-family: "Platypi", sans-serif;
+    font-size: xx-large;
+}
+
+.statement-1 {
+    margin-top: 3%;
+}

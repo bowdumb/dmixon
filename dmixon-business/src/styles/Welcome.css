@@ -1,27 +1,42 @@
-.welcome-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
-.letter-container {
-    padding: 40px;
-    max-width: 40%;
-    max-height:70%;
-    font-family: "Platypi", sans-serif;
-    font-size:large;
-    background-color: #559374; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column; /* Ensure the content is laid out vertically */
+    width: 100%;
+    padding: 20px;
 }
 
 .welcome-header {
     font-family: "Platypi", sans-serif;
     font-size: xxx-large;
-    max-width: 30%;
-    margin-bottom: 20%;
-    margin-right: 10%;
+    max-width: 35%; /* Adjusted for better alignment */
+    text-align: start;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.contact-button-welcome {
+    margin-top: 5x; /* Space between header text and button */
+    text-align: start; /* Center the button within the header */
+    margin-left: 30px;
 }
 
 .book-session-button {
@@ -30,10 +45,39 @@
     font-size: large;
     font-family: "Platypi", sans-serif;
     color: white;
-    background-color: rgb(141, 167, 149);
+    background-color: rgb(141, 167, 149); /* Updated button background color */
     border: none;
     border-radius: 5px;
-    text-decoration: none;
+    text-decoration: none; /* Remove underline from the link */
     transition: background-color 0.3s ease;
     margin-top: 15%;
+}
+
+.book-session-button:hover {
+    background-color: #0056b3; /* Darken the button color on hover */
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: column; /* Ensure the content is laid out vertically */
+    width: 100%;
+    font-family: "Platypi", sans-serif;
+    font-size: large;
+}
+
+.statement {
+    width: 80%;
+    /* margin: 20px auto; Center align and add vertical spacing */
+    padding: 20px;
+    background-color: rgb(98, 230, 195);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.left {
+    align-self: flex-start; /* Align to the left */
+}
+
+.right {
+    align-self: flex-end; /* Align to the right */
 }

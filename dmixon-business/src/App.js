@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Individuals from './components/Individuals';
 import Organizations from './components/Organizations';
-import Welcome from './components/Welcome';
+import Landing from './components/Landing';
 import Resources from './components/Resources';
 import './App.css';
 
@@ -19,20 +19,23 @@ function App() {
 
   return (
     <Router>
-      <div>
-        <Navbar />
+      {/* <div className="app-container">
+        <div className="content-wrapper"> */}
 
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="Contact" element={<Contact />} />
-          <Route path="Individuals" element={<Individuals />} />
-          <Route path="Organizations" element={<Organizations />} />
-          <Route path="People" element={<People />} />
-          <Route path="Resources" element={<Resources />} />
-          <Route path="DanielleBio" element={<DanielleBio />} />
-        </Routes>
+          <Navbar />
+
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="Contact" element={<Contact />} />
+            <Route path="Individuals" element={<Individuals />} />
+            <Route path="Organizations" element={<Organizations />} />
+            <Route path="People" element={<People />} />
+            <Route path="Resources" element={<Resources />} />
+            <Route path="DanielleBio" element={<DanielleBio />} />
+          </Routes>
+        {/* </div> */}
         <Footer />
-      </div>
+       {/* </div> */}
     </Router>
   );
 };
