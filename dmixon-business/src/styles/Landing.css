@@ -7,11 +7,14 @@
 
 .landing-header {
     font-family: "Platypi", sans-serif;
-    font-size: xxx-large;
+    font-size: 42px;
     max-width: 37%;
     text-align: start;
-    margin-bottom: 20px;
     margin-left: 30px;
+    margin-top: 75px;
+    background-color: rgb(235, 233, 153);
+    border-radius: 8px;
+    padding: 19px;
 }
 
 .contact-button-landing {
@@ -31,7 +34,7 @@
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    margin-top: 15%;
+    margin-top: 6%;
 }
 
 .book-consult-button:hover {
@@ -42,16 +45,24 @@
     align-self: flex-start;
     max-width: 40%;
     font-family: "Platypi", sans-serif;
-    font-size: xx-large;
+    font-size: 22px;
+    /* background-color: rgb(235, 233, 153); */
+    border-radius: 8px;
+    padding: 19px;
+    margin-top: 50px;
 }
 
 .right { 
     align-self: flex-end;
     max-width: 40%;
     font-family: "Platypi", sans-serif;
-    font-size: xx-large;
+    font-size: 22px;
+    /* background-color: rgb(235, 233, 153); */
+    border-radius: 8px;
+    padding: 19px;
+    margin-top: 50px;
 }
 
 .statement-1 {
-    margin-top: 3%;
+  
 }
