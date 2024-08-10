@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('');
   const [dropdownVisible, setDropdownVisible] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
@@ -18,9 +19,28 @@ function Navbar() {
     setDropdownVisible(false);
   };
 
+  useEffect(() => {
+    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+        document.body.style.paddingTop = `${navbarHeight}px`; // Apply padding to avoid content being cut off
+      } else {
+        setIsSticky(false);
+        document.body.style.paddingTop = '0px'; // Remove padding at the top of the page
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
-      <section className="navbar">
+      <section className={`navbar ${isSticky ? 'sticky' : ''}`}>
         <div className="navbar-content">
           <h1 className="navbar-title">Haven Therapy & Consulting</h1>
           <nav>

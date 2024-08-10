@@ -31,10 +31,12 @@ function Landing() {
                     </p>
                 </div>
                 <div className="statement right">
-                    We prioritize integrity and inclusivity in the Haven community. A cornerstone of our work in the trauma field
-                    is recognizing that oppressive systems and exploitation of power are pervasive in our society. We aim to operate
-                    in a way that counters powerlessness and dehumanization, radically welcomes people from marginalized communities,
-                    and provides appropriate and nonjudgmental support to all.
+                    <div className="statement-3">
+                        We prioritize integrity and inclusivity in the Haven community. A cornerstone of our work in the trauma field
+                        is recognizing that oppressive systems and exploitation of power are pervasive in our society. We aim to operate
+                        in a way that counters powerlessness and dehumanization, radically welcomes people from marginalized communities,
+                        and provides appropriate and nonjudgmental support to all.
+                    </div>
                 </div>
             </div>
         </BodyContent>
