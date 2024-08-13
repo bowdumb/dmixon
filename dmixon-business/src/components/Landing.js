@@ -8,20 +8,20 @@ function Landing() {
         <BodyContent>
             <div className="landing-container">
                 <div className="landing-header">
-                    Trauma therapy for individuals, consulting for buisinesses, and
+                    Trauma therapy for individuals, consulting for businesses, and
                     clinical supervision for therapists
                     <div className="contact-button-landing">
                         <Link to="/contact" className="book-consult-button">BOOK A CONSULTATION</Link>
                     </div>
                 </div>
-                <div className="statement right">
+                <div className="statement right chain">
                     <div className="statement-1">
                         Haven provides resources for adults who are navigating life after trauma and leaders who are creating more
                         trauma-informed environments. Every aspect of the services we provide and the way we provide them are designed
                         to be antidotes to the negative effects of traumatic experiences.
                     </div>
                 </div>
-                <div className="statement left">
+                <div className="statement left chain">
                     <p>We offer:
                         <ul>
                             <li>Individual teletherapy for adults in NY who have experienced trauma</li>
@@ -30,7 +30,7 @@ function Landing() {
                         </ul>
                     </p>
                 </div>
-                <div className="statement right">
+                <div className="statement right chain">
                     <div className="statement-3">
                         We prioritize integrity and inclusivity in the Haven community. A cornerstone of our work in the trauma field
                         is recognizing that oppressive systems and exploitation of power are pervasive in our society. We aim to operate
