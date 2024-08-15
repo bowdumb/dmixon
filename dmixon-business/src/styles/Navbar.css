@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(115, 164, 129);
+    background-color: rgb(97, 113, 158);
 }
 
 .sticky {
@@ -74,7 +74,7 @@
 .nav-link-contact {
     text-decoration: none;
     color: white;
-    background-color: rgb(195, 150, 122);
+    background-color: rgb(97, 144, 158);
     font-weight: 700;
     font-size: 20px;
     font-family: "Playfair Display", sans-serif;

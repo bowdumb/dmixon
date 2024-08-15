@@ -5,6 +5,7 @@
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: white;
 }
 
 .top-row {
@@ -23,7 +24,7 @@
     font-family: "Platypi", sans-serif;
     font-size: 22px;
     text-align: center;
-    background-color: rgb(222, 233, 154);
+    background-color: rgb(97, 158, 142);
     border-radius: 15px;
     margin-right: 10px; /* Space between header and statement */
     padding: 10px;
@@ -34,12 +35,13 @@
 .welcome-statement-container {
     font-size: 20px;
     margin-left: 10px; /* Space between statement and header */
+    
 }
 
 .welcome-statement {
     font-family: "Platypi", sans-serif;
     text-align: center;
-    background-color: rgb(222, 233, 154);
+    background-color: rgb(97, 158, 142);
     border-radius: 15px;
     padding: 10px;
     border: 1px solid black;
@@ -54,6 +56,7 @@
     max-width: 40%;
     font-family: "Platypi", sans-serif;
     font-size: 22px;
+    border: 1px solid black;
     border-radius: 8px;
     padding: 19px;
     margin-top: 90px;
@@ -61,11 +64,11 @@
 }
 
 .statement.left {
-    background-color: rgb(178, 189, 181);
+    background-color: rgb(97, 158, 142);
 }
 
 .statement.right {
-    background-color: rgb(231, 205, 171);
+    background-color: rgb(97, 158, 142);
 }
 
 .chain::after {
