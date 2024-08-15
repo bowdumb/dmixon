@@ -14,6 +14,13 @@ function Landing() {
                         <Link to="/contact" className="book-consult-button">BOOK A CONSULTATION</Link>
                     </div>
                 </div>
+                <div className="welcome-statement-container">
+                    <div className="welcome-statement">
+                        Welcome to Haven Therapy & Consulting, where we use trauma-informed methodologies within the realms of individual consulting, 
+                        clinical supervision, and consulting for businesses and communities. Reach out to book a consultation today, or read on to get 
+                        to know us better.
+                    </div>
+                </div>
                 <div className="statement right chain">
                     <div className="statement-1">
                         Haven provides resources for adults who are navigating life after trauma and leaders who are creating more
