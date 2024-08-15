@@ -1,47 +1,52 @@
 .landing-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+.top-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch; /* Ensures that both children stretch to fill the container */
+}
+
+.landing-header, .welcome-statement-container {
+    flex: 1; /* Both elements take up equal space */
+    max-width: 50%; /* Ensures they do not exceed 50% of the row */
+}
+
 .landing-header {
-    align-self: flex-start;
     font-family: "Platypi", sans-serif;
     font-size: 22px;
-    max-width: 25%;
     text-align: center;
     background-color: rgb(222, 233, 154);
     border-radius: 15px;
-    padding: 5px;
+    margin-right: 10px; /* Space between header and statement */
+    padding: 10px;
     border: 1px solid black;
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact-button-landing {
-    margin-top: 5px;
-    text-align: center;
+.welcome-statement-container {
+    font-size: 20px;
+    margin-left: 10px; /* Space between statement and header */
 }
 
-.book-consult-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: large;
+.welcome-statement {
     font-family: "Platypi", sans-serif;
-    color: white;
-    background-color: rgb(141, 167, 149);
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    margin-top: 6%;
+    text-align: center;
+    background-color: rgb(222, 233, 154);
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
 }
 
-.book-consult-button:hover {
-    background-color: rgb(115, 164, 129);
-}
+/* Styling for containers beneath the top-row */
 
 .statement {
     position: relative;
@@ -57,12 +62,10 @@
 
 .statement.left {
     background-color: rgb(178, 189, 181);
-    background-color: rgb(231, 205, 171);
 }
 
 .statement.right {
     background-color: rgb(231, 205, 171);
-
 }
 
 .chain::after {
@@ -86,4 +89,28 @@
 
 .statement-3 {
     padding-bottom: 10px;
+}
+
+/* Contact button styling */
+.contact-button-landing {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.book-consult-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: large;
+    font-family: "Platypi", sans-serif;
+    color: white;
+    background-color: rgb(141, 167, 149);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 6%;
+}
+
+.book-consult-button:hover {
+    background-color: rgb(115, 164, 129);
 }
