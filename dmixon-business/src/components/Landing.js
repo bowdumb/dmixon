@@ -13,15 +13,16 @@ function Landing() {
                         clinical supervision for therapists
                         <div className="contact-button-landing">
                             <Link to="/contact" className="book-consult-button">BOOK A CONSULTATION</Link>
+                            <div className="down-arrow"></div>
                         </div>
                     </div>
-                    <div className="welcome-statement-container">
+                    {/* <div className="welcome-statement-container">
                         <div className="welcome-statement">
                             Welcome to Haven Therapy & Consulting, where we use trauma-informed methodologies within the realms of individual consulting,
                             clinical supervision, and consulting for businesses and communities. Reach out to book a consultation today, or read on to get
                             to know us better.
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="statement right chain">
                     <div className="statement-1">
