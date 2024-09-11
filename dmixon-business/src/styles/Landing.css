@@ -7,9 +7,10 @@
 
 .top-row {
     display: flex;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
     align-items: stretch; /* Ensures that both children stretch to fill the container */
+    padding-top: 30px;
 }
 
 .landing-header, .welcome-statement-container {
